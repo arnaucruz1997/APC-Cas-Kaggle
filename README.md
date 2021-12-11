@@ -25,13 +25,12 @@ Com a variable X(predictores) hem escollit de la columan 2 fins la columna 3001.
 Com a variable y(objectiu) hem escollit la ultima columna que contenia si un mail era spam o no.
 
 ### Model
-| Model | Hiperparametres | Accuracy | F1-score | RMSE |
-| -- | -- | -- | -- |
-| Regressió Logística | solver: lbfgs | 96.26% | 93.22% | 0.037 |
-| Random Forest | trees: 100 | 93.55% | 88.00% | 0.064 |
-| Naive Bayes | modedl: MultinomialNB | 92.59% | 86.64% | 0.074 |
-| SVC | kernel: lineal C:10 | 72.03% | 01.80% | 0.279 |
-| -- | -- | -- | -- |
+| Model               | Hiperparametres       | Accuracy | F1-score | RMSE  |
+|---------------------|-----------------------|----------|----------|-------|
+| Regressió Logística | solver: lbfgs         | 96.26%   | 93.22%   | 0.037 |
+| Random Forest       | trees: 100            | 93.55%   | 88.00%   | 0.064 |
+| Naive Bayes         | modedl: MultinomialNB | 92.59%   | 86.64%   | 0.074 |
+| SVC                 | kernel: lineal C:10   | 72.03%   | 01.80%   | 0.279 |
 
 ## Conclusions
 El millor model que s'ha aconseguit ha estat el de regressió logística, seguit de Random Forest i Naive Bayes a un nivell molt similar els tres, ja que els tres son uns bons models quan es tracta d'una regressió binària.
